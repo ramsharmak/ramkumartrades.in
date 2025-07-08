@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚆 RAM KUMAR TRADERS | Railway Components Manufacturer</title>
+  <meta name="description" content="RAM KUMAR TRADERS is a leading manufacturer of railway track components including channel sleepers, hook bolts, and H-beam sleepers. Based in Howrah, West Bengal.">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/train.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #facc15;
+      --bg: #f8fafc;
+      --text: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+    }
+
+    header h1 img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--secondary);
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        margin-left: 10px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .hero {
+      background: linear-gradient(rgba(30,58,138,0.6), rgba(30,58,138,0.6)),
+                  url('https://images.unsplash.com/photo-1603021524532-315b2a62cf64?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero h2, .hero p {
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .product-card h4 {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 10px;
+      transition: 0.3s ease;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--secondary);
+      color: black;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  
+    /* Add fade-in animations */
+    .section {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Slight background pattern */
+    body {
+      background-image: radial-gradient(circle at top left, #eef2ff 0%, transparent 40%);
+    }
+
+    /* Modern card hover effect */
+    .product-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Fancy section titles */
+    .section-title {
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      display: block;
+      height: 4px;
+      width: 50%;
+      background-color: var(--secondary);
+      margin: 8px auto 0;
+      border-radius: 2px;
+    }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <img src="https://img.icons8.com/ios-filled/50/train.png" alt="Train Icon"> RAM KUMAR TRADERS
+    </h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Precision Components for Indian Railways</h2>
+      <p>Trusted supplier for quality channel sleepers, hook bolts, and more.</p>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <h3 class="section-title">About Us</h3>
+    <p>RAM KUMAR TRADERS manufactures durable, high-performance railway components. We proudly serve India's railway contractors and government projects with precision-engineered products.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h3 class="section-title">Our Products</h3>
+    <div class="products-grid">
+      <div class="product-card">
+        <h4>Channel Sleepers</h4>
+        <p>Strong, rust-resistant sleepers for reliable rail support.</p>
+      </div>
+      <div class="product-card">
+        <h4>Hook Bolts</h4>
+        <p>High-grade steel bolts for secure track fastening.</p>
+      </div>
+      
+      <div class="product-card">
+        <h4>H-beam Sleepers</h4>
+        <p>Engineered steel sleepers designed for long-lasting rail stability and load distribution.</p>
+      </div>
+<div class="product-card">
+        <h4>Fish Plates</h4>
+        <p>Joint plates that ensure smooth, continuous rail flow.</p>
+      </div>
+      <div class="product-card">
+        <h4>Custom Fastenings</h4>
+        <p>Track fittings built to your specifications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <h3 class="section-title">Gallery</h3>
+    <img src="images/truck.jpg" alt="Truck carrying H-beam steel components">
+    <img src="images/hbeam-yard.jpg" alt="Stocked H-beam sleepers in yard">
+    <img src="images/factory-assembly.jpg" alt="Factory assembly of railway components">
+    <img src="images/factory-gate.jpg" alt="Factory entrance with crane">
+  </section>
+
+  <section class="section" id="contact">
+    <h3 class="section-title">Contact Us</h3>
+    <p>Email: <a href="mailto:sharmashyamkumar4@gmail.com">sharmashyamkumar4@gmail.com</a></p>
+    <p>Phone: +91-9073568256</p>
+    <p>Location: Howrah, West Bengal</p>
+    <a class="btn" href="mailto:sharmashyamkumar4@gmail.com">Send Us an Email</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RAM KUMAR TRADERS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
